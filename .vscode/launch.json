@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/LENOVO/Desktop/CRT/29Aug2024",
-      "program": "c:/Users/LENOVO/Desktop/CRT/29Aug2024/build/Debug/outDebug",
+      "cwd": "c:/Users/LENOVO/Desktop/CRT/SHEET#1(DataType-Condition)",
+      "program": "c:/Users/LENOVO/Desktop/CRT/SHEET#1(DataType-Condition)/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

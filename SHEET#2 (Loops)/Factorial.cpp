@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 
-// Function to compute factorial of a number
 unsigned long long factorial(int N) {
     if (N == 0) {
-        return 1; // 0! is 1
+        return 1;
     }
 
     unsigned long long result = 1;
