@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;
 
-void printMessage(int N) {
-
+void printNumbers(int N) {
+    
     if (N == 0) {
         return;
     }
-    cout << "I love Recursion" << endl;
+    printNumbers(N - 1);
     
-    printMessage(N - 1);
+    cout << N << endl;
 }
 
 int main() {
     int N;
     cin >> N;
-    printMessage(N);
+    printNumbers(N);
     return 0;
 }
