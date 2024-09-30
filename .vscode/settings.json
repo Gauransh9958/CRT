@@ -59,6 +59,7 @@
   "files.associations": {
     "*.wmls": "javascriptlite",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "cmath": "cpp"
   }
 }
