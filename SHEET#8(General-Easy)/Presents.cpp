@@ -1,17 +1,13 @@
 #include <iostream>
-#include <algorithm>
-#include <iomanip>
-#include <string>
-#include <cmath>
-#include <cstring>
 using namespace std;
 
 int main()
 {
     int size;
     cin >> size;
-    int *arr = new int[size];
+    int *arr = new int[size + 1];
     int num;
+    
     for (int i = 1; i <= size; i++)
     {
         cin >> num;
@@ -22,4 +18,8 @@ int main()
     {
         cout << arr[i] << " ";
     }
+    cout << endl;
+    
+    
+    delete[] arr;
 }
